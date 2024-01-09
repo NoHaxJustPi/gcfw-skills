@@ -1,0 +1,26 @@
+@font-face {
+    font-family: CelticGC;
+    src: url('Celtic\ Garamond\ for\ Gemcraft.ttf');
+}
+
+* {
+    font-family: CelticGC
+}
+
+#skillgrid {
+    display: grid;
+    width: 50vw;
+    height: 18.33vw;
+    grid-template: repeat(4, minmax(0, 1fr)) / repeat(6, minmax(0, 1fr)); 
+}
+
+.skill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-size: 2vw;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+    overflow: hidden;
+}
